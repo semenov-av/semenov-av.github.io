@@ -1,5 +1,5 @@
 body {
-    background-color: #FFE8D2;
+    background-color: #BAE0E5;
 }
 
 @media screen and (min-width: 500px) {
@@ -15,7 +15,7 @@ div.top-menu ul {
     margin-top: 1%;
     height: 70px;
     text-align: center;
-    background-color: #967555;
+    background-color: #22477B;
 }
 
 .left-item {
@@ -65,7 +65,7 @@ div.top-menu ul {
 }
 
 .left-item {
-    background-color: #967555;
+    background-color: #22477B;
     display: inline-block;
     width: 100%;
     overflow: hidden;
