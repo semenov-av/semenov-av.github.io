@@ -1,0 +1,30 @@
+.list-row {
+    width: 100%;
+    height: 900px;
+    background-color: #967555;
+}
+
+.list {
+    float: left;
+    display: inline-block;
+    width: 700px;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.list-row div:nth-child(2n+1) {
+    margin-left: 196px;
+}
+
+.list h1 {
+    left: 300px;
+    font-size: 40px;
+    color: white;
+}
+
+.list li {
+    font-size: 35px;
+    color: white;
+}
