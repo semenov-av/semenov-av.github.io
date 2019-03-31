@@ -1,28 +1,42 @@
 .list-row {
     width: 100%;
-    height: 700px;
-    background-color: #22477B;
+    height: 730px;
+    background-color: #FFA668;
 }
 
 .list {
     float: left;
     display: inline-block;
     width: 700px;
-    height: 300px;
-    margin-bottom: 50px;
+    height: 315px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: 50px;
     margin-right: 50px;
+    border-radius: 30px;
+    background-color: #22477B;
+    box-shadow: 0 5px 10px #666;
 }
 
 .list-row div:nth-child(2n+1) {
-    margin-left: 196px;
+    margin-left: calc((100% - 1500px) / 2);
+    clear: both;
 }
 
 .list h1 {
-    left: 300px;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 25%;
+    margin-right: 25%;
     font-size: 35px;
     font-family: Arial;
     color: white;
+}
+
+.list ul {
+    margin: 0 2%;
+    clear: both;
 }
 
 .list li {
