@@ -1,5 +1,5 @@
 /* mobile */
-@media only screen and (max-width: 1224px) {
+@media only screen and (max-width: 1700px) {
 
 .item-row {
     width: 100%;
@@ -47,7 +47,7 @@ div.main-item img {
 }
 
 /* desktop */
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1700px) {
 
 .item-row {
     width: 100%;

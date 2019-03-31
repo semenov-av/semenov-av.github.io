@@ -1,22 +1,53 @@
 /* mobile */
-@media only screen and (max-width: 1224px) {
+@media only screen and (max-width: 1700px) {
 
 .bottom {
     background-color: #1F2C45;
     margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 .contacts {
     display: inline-block;
     width: 100%;
     background-color: #1F2C45;
-    margin-top: 80px;
-    height: 200px;
-    padding: 5px 0;
+}
+
+div.contacts p:first-child {
+    margin-left: 100px;
+}
+
+div.contacts p:last-child {
+    margin-left: 200px;
 }
 
 .contacts p {
+    text-align: center;
+    float: left;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 35px;
+    font-family: Arial;
     color: white;
+}
+
+.big {
+    font-size: 40px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.phone {
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.mail {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .map {
@@ -32,47 +63,72 @@
     display: inline-block;
     padding: 1%;
     width: 98%;
-    height: 700px;
+    height: 600px;
     background-color: #1F2C45;
     margin-top: 0;
 }
 
 div.out img {
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 
 }
 
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1700px) {
 
 .bottom {
-    background-color: #1F2C45;
+    width: 100%;
+    height: 510px;
+    display: inline-block;
+    background-color: #757780;
+    margin-top: 80px;
 }
 
 .contacts {
     display: inline-block;
     float: left;
     width: 310px;
-    background-color: #1F2C45;
-    margin-top: 80px;
+    background-color: #757780;
     height: 500px;
-    padding: 5px 0;
+    padding: 5px;
+    margin-left: calc((100% - 1912px) / 2);
 }
 
 .contacts p {
+    text-align: center;
+    padding: 0 10px;
+    font-size: 25px;
+    font-family: Arial;
     color: white;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.phone {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.mail {
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .map {
     display: inline-block;
     float: left;
     padding: 5px;
-    background-color: #1F2C45;
+    background-color: #757780;
     width: 800px;
     height: 500px;
-    margin-bottom: 10px;
-    margin-top: 80px;
 }
 
 .out {
@@ -81,9 +137,7 @@ div.out img {
     padding: 5px;
     width: 762px;
     height: 500px;
-    background-color: #1F2C45;
-    margin-bottom: 10px;
-    margin-top: 80px;
+    background-color: #757780;
 }
 
 div.out img {
