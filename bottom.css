@@ -42,7 +42,7 @@ div.contacts p:last-child {
 
 .phone {
     font-weight: bold;
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .mail {
@@ -90,9 +90,10 @@ div.out img {
     float: left;
     width: 310px;
     background-color: #757780;
-    height: 500px;
+    height: 420px;
     padding: 5px;
-    margin-left: calc((100% - 1912px) / 2);
+    margin-left: calc((100% - 1902px) / 2);
+    padding-top: 80px
 }
 
 .contacts p {
@@ -114,11 +115,11 @@ div.out img {
 
 .phone {
     font-weight: bold;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .mail {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
 }
 
@@ -135,13 +136,13 @@ div.out img {
     display: inline-block;
     float: left;
     padding: 5px;
-    width: 762px;
+    width: 752px;
     height: 500px;
     background-color: #757780;
 }
 
 div.out img {
-    width: 762px;
+    width: 752px;
     height: 500px;
 }
 
