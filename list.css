@@ -1,3 +1,5 @@
+/* mobile */
+@media only screen and (max-width: 1224px) {
 
 .list-row {
     width: 100%;
@@ -47,6 +49,8 @@
     color: white;
 }
 
+}
+
 /* desktop */
 @media only screen and (min-width: 1224px) {
 
@@ -70,7 +74,7 @@
     box-shadow: 0 5px 10px #666;
 }
 
-.list-row div:nth-child(n) {
+.list-row div:nth-child(2n+1) {
     margin-left: calc((100% - 1500px) / 2);
     clear: both;
 }
