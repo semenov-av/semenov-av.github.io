@@ -1,26 +1,40 @@
+.contacts {
+    display: inline-block;
+    float: left;
+    width: 310px;
+    background-color: #1F2C45;
+    margin-top: 80px;
+    height: 500px;
+    padding: 5px 0;
+}
+
+.contacts p {
+    color: white;
+}
+
 .map {
     display: inline-block;
     float: left;
     padding: 5px;
-    background-color: #FF9A4D;
-    width: 1000px;
+    background-color: #1F2C45;
+    width: 800px;
     height: 500px;
     margin-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .out {
     display: inline-block;
     float: left;
     padding: 5px;
-    width: 862px;
+    width: 762px;
     height: 500px;
-    background-color: #FF9A4D;
+    background-color: #1F2C45;
     margin-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 div.out img {
-    width: 862px;
+    width: 762px;
     height: 500px;
 }

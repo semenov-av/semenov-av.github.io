@@ -1,4 +1,5 @@
 
+/*
 .item-row {
     width: 100%;
     height: 2750px;
@@ -23,7 +24,7 @@
 .item-row div:last-child {
 }
 
-div.main-item h3 {
+div.main-item h1 {
     font-family: Arial;
     font-size: 35px;
     display: inline-block;
@@ -39,7 +40,7 @@ div.main-item img {
     position: absolute;
 }
 
-@media screen and (min-width: 800px) {
+*/
 
 .item-row {
     width: 100%;
@@ -62,19 +63,18 @@ div.main-item img {
 
 .item-row div:nth-child(4n+1) {
     margin-left: 176px;
+    clear: both;
 }
 
-.item-row div:last-child {
-}
-
-div.main-item h3 {
+div.main-item h1 {
     font-family: Arial;
     font-size: 35px;
     display: inline-block;
     color: white;
     position: absolute;
-    left: 60px;
-    top: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 div.main-item img {
@@ -83,4 +83,3 @@ div.main-item img {
     position: absolute;
 }
 
-}

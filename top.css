@@ -2,6 +2,7 @@ body {
     background-color: #BAE0E5;
 }
 
+/*
 
 .top-menu {
     height: 7%;
@@ -40,8 +41,8 @@ li.left-item a {
 li.right-item a {
     display: none;
 }
+*/
 
-@media screen and (min-width: 800px) {
 
 .top-menu {
     height: 7%;
@@ -51,16 +52,15 @@ div.top-menu ul {
     list-style: none;
     margin: 0;
     padding-left: 0;
-    margin-top: 1%;
+    margin-top: 10px;
     height: 70px;
-    text-align: center;
     background-color: #22477B;
+    overflow: hidden;
 }
 
 .left-item {
-    float: left;
-    overflow: hidden;
     line-height: 70px;
+    float: left;
 }
 
 li.left-item a {
@@ -86,4 +86,3 @@ li.right-item a {
     font-family: Arial, serif;
 }
 
-}
