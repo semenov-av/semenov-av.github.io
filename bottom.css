@@ -2,7 +2,7 @@
 @media only screen and (max-width: 1700px) {
 
 .bottom {
-    background-color: #1F2C45;
+    background-color: #757780;
     margin-bottom: 10px;
     margin-top: 50px;
 }
@@ -10,15 +10,19 @@
 .contacts {
     display: inline-block;
     width: 100%;
-    background-color: #1F2C45;
+    background-color: #757780;
 }
 
 div.contacts p:first-child {
-    margin-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 div.contacts p:last-child {
-    margin-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .contacts p {
@@ -53,7 +57,7 @@ div.contacts p:last-child {
 .map {
     display: inline-block;
     padding: 1%;
-    background-color: #1F2C45;
+    background-color: #757780;
     width: 98%;
     height: 500px;
     margin-bottom: 0;
@@ -64,7 +68,7 @@ div.contacts p:last-child {
     padding: 1%;
     width: 98%;
     height: 600px;
-    background-color: #1F2C45;
+    background-color: #757780;
     margin-top: 0;
 }
 
