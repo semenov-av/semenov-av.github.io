@@ -100,10 +100,12 @@ div.out img {
     float: left;
     width: 310px;
     background-color: #757780;
-    height: 420px;
-    padding: 5px;
+    height: 455px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
     margin-left: calc((100% - 1902px) / 2);
-    padding-top: 80px
+    padding-top: 50px;
 }
 
 .contacts p {
@@ -134,6 +136,7 @@ div.out img {
 }
 
 .icon {
+    display: none;
     outline: none;
     text-decoration: none;
     width: 96px;
