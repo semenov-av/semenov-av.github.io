@@ -13,13 +13,7 @@
     background-color: #757780;
 }
 
-div.contacts p:first-child {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-div.contacts p:last-child {
+div.contacts p {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -52,6 +46,18 @@ div.contacts p:last-child {
 .mail {
     font-size: 40px;
     font-weight: bold;
+}
+
+.icon {
+    outline: none;
+    text-decoration: none;
+    width: 48px;
+    margin-left: calc((100% - 48px) / 2);
+    margin-bottom: 10px;
+}
+
+a.icon img {
+    border: 0;
 }
 
 .map {
@@ -125,6 +131,17 @@ div.out img {
 .mail {
     font-size: 23px;
     font-weight: bold;
+}
+
+.icon {
+    outline: none;
+    text-decoration: none;
+    width: 48px;
+    margin-left: calc((320px - 48px) / 2);
+}
+
+a.icon img {
+    border: 0;
 }
 
 .map {
