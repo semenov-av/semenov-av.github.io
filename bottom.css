@@ -51,8 +51,8 @@ div.contacts p {
 .icon {
     outline: none;
     text-decoration: none;
-    width: 48px;
-    margin-left: calc((100% - 48px) / 2);
+    width: 96px;
+    margin-left: calc((100% - 96px) / 2);
     margin-bottom: 10px;
 }
 
@@ -136,8 +136,8 @@ div.out img {
 .icon {
     outline: none;
     text-decoration: none;
-    width: 48px;
-    margin-left: calc((320px - 48px) / 2);
+    width: 96px;
+    margin-left: calc((320px - 96px) / 2);
 }
 
 a.icon img {
