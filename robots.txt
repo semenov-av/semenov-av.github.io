@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /images/
 Host: http://steklo-selyatino.ru
