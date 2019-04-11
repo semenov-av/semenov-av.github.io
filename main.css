@@ -27,7 +27,7 @@
     clear: both;
 }
 
-div.main-item h2 {
+div.main-item h1 {
     font-family: Arial;
     font-size: 35px;
     display: inline-block;
@@ -76,7 +76,7 @@ div.main-item img {
     clear: both;
 }
 
-div.main-item h2 {
+div.main-item h1 {
     font-family: Arial;
     font-size: 35px;
     display: inline-block;
